@@ -33,11 +33,11 @@ async def start(event):
   await event.reply("Hello, I am TagAll Bot.\nI can help you to tag group members with less time in mass quantity.\nIf you have any query, do /help ",
                     buttons=(
                       [
-                         Button.url('Support', 'https://telegram.dog/Akira_Support'), 
-                         Button.url('Creator', 'https://telegram.dog/akhilprs'), 
+                         Button.url('𝗦𝘂𝗽𝗽𝗼𝗿𝘁', 'https://telegram.dog/About_ajeet'), 
+                         Button.url('𝗖𝗿𝗲𝗮𝘁𝗼𝗿', 'https://telegram.dog/papa_bol_sakteho'), 
                       ], 
                       [
-                        Button.url('➕ ADD ME TO YOUR GROUP ➕', 'https://t.me/AkiraTaggerBot?startgroup=true'),   
+                        Button.url('🥺 𝗔𝗱𝗱 𝗺𝗲 𝗯𝗮𝗯𝘆 🥺', 'https://t.me/AJYuKuTagBoT?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
@@ -52,11 +52,11 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [
-                         Button.url('Support', 'https://telegram.dog/Akira_Support'), 
-                         Button.url('Creator', 'https://telegram.dog/akhilprs'), 
+                         Button.url('𝗦𝘂𝗽𝗽𝗼𝗿𝘁', 'https://telegram.dog/About_ajeet'), 
+                         Button.url('𝗖𝗿𝗲𝗮𝘁𝗼𝗿', 'https://telegram.dog/papa_bol_sakteho'), 
                       ], 
                       [
-                        Button.url('➕ ADD ME TO YOUR GROUP ➕', 'https://t.me/AkiraTaggerBot?startgroup=true'),   
+                        Button.url('🥺 𝗔𝗱𝗱 𝗺𝗲 𝗯𝗮𝗯𝘆 🥺 ', 'https://t.me/AJYuKuTagBoT?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
@@ -64,21 +64,21 @@ async def help(event):
 
 @AJ.on(events.NewMessage(pattern="^/repo$"))
 async def repo(event):
-  repotext = "I am an open source bot made by [Akhil](https://telegram.dog/akhilprs)."
+  repotext = "I am an open source bot made by [➤⃝✖‿✖•Ajͥeeͣtͫ](https://telegram.dog/papa_bol_sakteho)."
   await event.reply(repotext,
                     buttons=(
                       [
-                         Button.url('Source Code', 'https://github.com/SpectraXCode/tagallbot-tg'), 
-                         Button.url('Creator', 'https://telegram.dog/akhilprs'), 
+                         Button.url('𝗔𝗯𝗼𝘂𝘁', 'https://t.me/about_ajeet'), 
+                         Button.url('𝗖𝗿𝗲𝗮𝘁𝗼𝗿', 'https://telegram.dog/papa_bol_sakteho'), 
                       ], 
                       [
-                        Button.url('➕ ADD ME TO YOUR GROUP ➕', 'https://t.me/AkiraTaggerBot?startgroup=true'),   
+                        Button.url('🥺 𝗔𝗱𝗱 𝗺𝗲 𝗯𝗮𝗯𝘆 🥺', 'https://t.me/AJYuKuTagBoT?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
                    )
 
-@AJ.on(events.NewMessage(pattern="^/tagall|/call|/tall|/all|#all|@all?(.*)"))
+@AJ.on(events.NewMessage(pattern="^/tagall|/call|/ajeetall|/all|/ajyuku|#all|@all?(.*)"))
 async def mentionall(event):
   global moment_worker
   if event.is_private:
@@ -152,7 +152,7 @@ async def cancel_spam(event):
 
 print("Connecting...")
 print("Started Successfully....")
-print("Made by @akhilprs. Join the channel to be updated !")
+print("Made by @papa_bol_sakteho Join the channel to be updated @ABOUT_AJEET !")
 AJ.run_until_disconnected()
 
 
