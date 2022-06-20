@@ -16,7 +16,7 @@ Mention user in telegram.
 
 > Click below to deploy via Heroku, first do changes in readme after forking, then deploy. 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/SpectraXCode/tagallbot-tg"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" target="_blank"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Ajsites2324/tagallbot-tg"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" target="_blank"/></a></p>
 
 </details>
 
